@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Puntos OSM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Contador de Puntos en OpenStreetMap</h1>
+      <p>Utiliza los botones para consultar información sobre puntos en la tabla planet_osm_line:</p>
+    </header>
+    
+    <main>
+      <div class="buttons">
+        <button id="count-all-btn">Contar Todos los Puntos</button>
+        <button id="count-by-highway-btn">Contar Puntos por Tipo de Vía</button>
+      </div>
+      
+      <div id="results">
+        <p>Los resultados aparecerán aquí...</p>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Aplicación para análisis de datos OSM con PostgreSQL/PostGIS</p>
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
